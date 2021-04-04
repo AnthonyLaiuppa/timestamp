@@ -2,12 +2,7 @@
 # Provider Configuration
 #
 
-# For purposes of this demo the aws provider will use the AWS-cli 
-# config for creds In a pipeline you could uncomment the access_key 
-# and secret_key lines in order to pass them in as cli-args
 provider "aws" {
-# access_key        = "${var.aws_access_key}"
-# secret_key        = "${var.aws_secret_key}"
   region = "us-east-2"
 }
 
